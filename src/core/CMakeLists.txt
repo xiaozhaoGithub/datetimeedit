@@ -1,0 +1,19 @@
+add_subdirectory(iconfont)
+
+set(Sources
+	${Sources}
+	core/datetimeedit_global.h
+	core/styleresourcepool.h
+	core/styleresourcepool.cc
+	core/flowlayout.h
+	core/flowlayout.cc
+	core/datetimeedit.h
+	core/datetimeedit.cc
+	core/calendartable.h
+	core/calendartable.cc
+	core/calendarwidget.h
+	core/calendarwidget.cc
+	core/datetimepicker.h
+	core/datetimepicker.cc
+	PARENT_SCOPE
+)

@@ -1,0 +1,177 @@
+QWidget {
+	color: rgba(255,255,255,0.80);
+}
+
+QLineEdit,
+QAbstractSpinBox {
+	font: 13px;
+	background: rgb(30,30,30);
+	border-radius: 4px;
+	border: 1px solid rgb(30,30,30);
+	padding: 1px 5px 1px 9px;
+	selection-color: rgba(255,255,255,0.80);
+	selection-background-color: rgb(49,152,255);
+}
+
+QLineEdit:hover, QLineEdit:focus,
+QAbstractSpinBox:hover, QAbstractSpinBox:focus {
+	border: 1px solid rgb(49,152,255);
+}
+
+QLineEdit:disabled,
+QAbstractSpinBox:disabled {
+	color: rgba(255,255,255,0.30);
+	background: rgb(54,54,54);
+	border: 1px solid rgb(54,54,54);
+}
+
+QScrollArea, QScrollArea>QWidget, QScrollArea>QWidget>QWidget {
+    background: transparent;
+}
+
+IconButton{
+	color: rgba(255,255,255,0.80);
+	outline: 0px;
+    border: 0px;
+    background-color: transparent;
+}
+IconButton::menu-indicator{
+	background: transparent;
+}
+IconButton:hover{
+	color: rgb(49,152,255);
+}
+IconButton:pressed{
+	color: rgb(0,146,179);
+}
+IconButton:disabled{
+	color: rgba(255,255,255,0.30);
+}
+IconButton:checked{
+	color: rgb(0,146,179);
+}
+IconButton:checked:disabled{
+	color: rgba(255,255,255,0.30);
+}
+
+
+QWidget#widget_like_container {
+	background-color: rgb(30,30,30);
+}
+QWidget#widget_like_container > QLineEdit,
+QWidget#widget_like_container > DateTimeEdit > QLineEdit,
+QWidget#widget_like_container > DateTimeEdit > QAbstractSpinBox,
+QWidget#widget_like_container > DateTimeEdit#date_time_edit {
+	background-color: rgb(44,48,54);
+}
+
+
+QScrollArea#no_border_scroll_area {
+    background: transparent;
+    border: 0px;
+}
+
+DateTimeEdit#date_time_edit {
+    border: 1px solid rgb(30,30,30);
+    border-radius: 4px;
+    background: rgb(30,30,30);
+}
+DateTimeEdit#date_time_edit:disabled {
+    border: 1px solid rgb(54,54,54);
+}
+DateTimeEdit#date_time_edit:hover {
+    border: 1px solid rgb(49,152,255);
+}
+
+SimpleDateTimeEdit#simple_date_time_edit {
+    font: 13px;
+    background: transparent;
+    border: 0px;
+    padding: 1px 0px 1px 0px;
+}
+SimpleDateTimeEdit#simple_date_time_edit::up-button,
+SimpleDateTimeEdit#simple_date_time_edit::down-button{
+    width: 0px;
+}
+
+QTableWidget#calendar_table {
+	font: 12px;
+	border: 0px;
+	background-color: transparent;
+}
+
+QWidget#calendar_widget {
+	border: 1px solid rgb(0,0,0);
+	background: rgb(44,48,54);
+}
+
+QHeaderView#calendar_table_header {
+	font: 11px;
+	background-color: transparent;
+}
+
+QHeaderView#calendar_table_header::section {
+    background: transparent;
+    border-right: 1px solid transparent;
+}
+
+QPushButton#calendar_btn {
+	font: 12px;
+	border: 0px;
+	color: rgba(255,255,255,0.80);
+	background-color: transparent;
+}
+
+QPushButton#calendar_btn:hover {
+	border: 0px;
+	color: rgba(255,255,255,0.80);
+	background-color: rgb(44,48,54);
+}
+
+QPushButton#calendar_btn_year_month {
+	font: 12px;
+	outline: none;
+	border: 0px;
+	color: rgba(255,255,255,0.80);
+	background: transparent;
+}
+
+QPushButton#calendar_btn_year_month:hover {
+	color: rgba(255,255,255,0.80);
+	background: rgb(35,68,120);
+}
+
+QPushButton#calendar_btn_year_month:checked {
+	color: rgba(255,255,255,0.90);
+	background-color: rgb(49,152,255);
+}
+
+QTimeEdit#calendar_time_edit {
+	font: 13px;
+	background: rgb(30,30,30);
+	border-radius: 2px;
+	border: 1px solid rgb(30,30,30);
+	padding: 1px 9px 1px 9px;
+	selection-color: rgba(255,255,255,0.80);
+	selection-background-color: rgb(49,152,255);
+}
+
+QTimeEdit#calendar_time_edit[style='1'] {
+    font: 13px;
+    background: rgb(30,30,30);
+    border-radius: 2px;
+    border: 1px solid rgb(244,67,54);
+    padding: 1px 9px 1px 9px;
+    selection-color: rgba(255,255,255,0.80);
+    selection-background-color: rgb(49,152,255);
+}
+
+QTimeEdit#calendar_time_edit:hover, 
+QTimeEdit#calendar_time_edit:focus {
+	border: 1px solid rgb(49,152,255);
+}
+
+QTimeEdit#calendar_time_edit[style='1']:focus {
+   	border: 1px solid rgb(244,67,54);
+}
+

@@ -1,0 +1,12 @@
+set(Sources
+	${Sources}
+	core/iconfont/abstractfont.h
+	core/iconfont/abstractfont.cc
+	core/iconfont/defaultfont.h
+	core/iconfont/defaultfont.cc
+	core/iconfont/iconhelper.h
+	core/iconfont/iconhelper.cc
+	core/iconfont/iconwidget.h
+	core/iconfont/iconwidget.cc
+	PARENT_SCOPE
+)

@@ -1,0 +1,13 @@
+#ifndef DATETIMEEDIT_GLOBAL_H_
+#define DATETIMEEDIT_GLOBAL_H_
+
+#include <QtCore/qglobal.h>
+
+#if defined(DATETIMEEDIT_LIBRARY)
+#define DATETIMEEDIT_EXPORT Q_DECL_EXPORT
+#else
+#define DATETIMEEDIT_EXPORT Q_DECL_IMPORT
+#endif
+
+
+#endif

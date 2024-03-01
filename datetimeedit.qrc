@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/iconfont/iconfont.ttf</file>
+        <file>resource/qss/stylesheet_dark.css</file>
+		<file>resource/language/language.ini</file>
+    </qresource>
+</RCC>
